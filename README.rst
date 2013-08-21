@@ -3,6 +3,11 @@ SlickDLNA for Android 4.0+
 ==========================
 SlickDLNA is a free, simple and easy to use client for browsing UPnP and DLNA media servers and it will enable you to stream media to your device. It focuses on delivering a simple and lightweight experience.
 
+Download
+========
+Available at the
+`Google Play Store <https://play.google.com/store/apps/details?id=com.cajor.dk.dlna>`__
+
 Requirements
 ============
 * `Android 4.0+ <http://android.com/>`__
