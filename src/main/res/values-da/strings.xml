@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SlickDLNA</string>
+    <string name="action_refresh">Genindlæs</string>
+    <string name="action_settings">Indstillinger</string>
+    <string name="info_searching">Genindlæser...</string>
+    <string name="info_errorlist_folders">Fejl ved visning af mappe</string>
+    <string name="info_still_loading">Enheden er ikke klar, vent venligst og prøv igen</string>
+    <string name="info_no_handler">Der er ingen applikation installeret som kan håndtere dette indhold</string>
+    <string name="info_folder">Mappe</string>
+    <string name="info_file">Fil</string>
+    <string name="info_items">elementer</string>
+    <string name="info_no_wifi">Aktiver venligst WiFI</string>
+    <string name="settings_title_devices">Enheder</string>
+    <string name="settings_validate_devices">Valider enheder</string>
+    <string name="settings_validate_devices_description">Foretag extra validering før visning af enheder (langsommere)</string>
+    <string name="settings_title_icons">Ikoner</string>
+    <string name="settings_show_icons">Vis ikoner</string>
+    <string name="settings_show_icons_description">Vis ikoner for mapper og filer</string>
+    <string name="settings_hide_file_icons">Skjul ikoner for filer</string>
+    <string name="settings_hide_file_icons_description">Skjul kun ikoner for filer</string>
+    <string name="settings_show_device_icons">Vis enhedsikoner</string>
+    <string name="settings_show_device_icons_description">Hent og vis enhedernes egne ikoner</string>
+    <string name="settings_title_files">Filer</string>
+    <string name="settings_show_extensions">Vis filendelser</string>
+    <string name="settings_show_extensions_description">Vis filendelser i navnet på filer</string>
+    <string name="settings_about_title">Om</string>
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_developer">Udvikler</string>
+    <string name="settings_about_developer_name">Casper Jørgensen</string>
+    <string name="settings_about_website">Hjemmeside</string>
+    <string name="settings_about_website_url">https://cajor.dk</string>
+</resources>

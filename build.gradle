@@ -1,0 +1,43 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.5.+'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'http://4thline.org/m2'
+    }
+}
+
+dependencies {
+    compile group: 'org.fourthline.cling', name: 'cling-core', version:'2.0-alpha2'
+    compile group: 'org.fourthline.cling', name: 'cling-support', version:'2.0-alpha2'
+    compile group: 'org.eclipse.jetty', name: 'jetty-server', version:'8.1.12.v20130726'
+    compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version:'8.1.12.v20130726'
+    compile group: 'org.eclipse.jetty', name: 'jetty-client', version:'8.1.12.v20130726'
+    compile group: 'org.slf4j', name: 'slf4j-jdk14', version:'1.7.5'
+    compile group: 'com.koushikdutta.urlimageviewhelper', name: 'urlimageviewhelper', version:'1.0.4'
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "17.0.0"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            runProguard true
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+}

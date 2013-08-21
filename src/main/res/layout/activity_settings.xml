@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:disableDependentsState="true" >
+
+    <PreferenceCategory android:title="@string/settings_title_devices">
+
+        <CheckBoxPreference
+                android:key="settings_validate_devices"
+                android:title="@string/settings_validate_devices"
+                android:summary="@string/settings_validate_devices_description" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_title_icons">
+
+        <CheckBoxPreference
+                android:key="settings_show_icons"
+                android:title="@string/settings_show_icons"
+                android:defaultValue="true"
+                android:summary="@string/settings_show_icons_description" />
+
+        <CheckBoxPreference
+                android:key="settings_show_device_icons"
+                android:title="@string/settings_show_device_icons"
+                android:dependency="settings_show_icons"
+                android:defaultValue="true"
+                android:summary="@string/settings_show_device_icons_description" />
+
+        <CheckBoxPreference
+                android:key="settings_hide_file_icons"
+                android:title="@string/settings_hide_file_icons"
+                android:dependency="settings_show_icons"
+                android:summary="@string/settings_hide_file_icons_description" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_title_files">
+
+        <CheckBoxPreference
+                android:key="settings_show_extensions"
+                android:title="@string/settings_show_extensions"
+                android:summary="@string/settings_show_extensions_description" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_about_title">
+
+        <EditTextPreference
+                android:key="about_version"
+                android:title="@string/settings_about_version"
+                android:summary="1.0.0"
+                android:enabled="false" />
+
+        <EditTextPreference
+                android:key="about_developer"
+                android:title="@string/settings_about_developer"
+                android:summary="@string/settings_about_developer_name"
+                android:enabled="false" />
+
+        <PreferenceScreen
+                android:title="@string/settings_about_website"
+                android:summary="@string/settings_about_website_url">
+            <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/settings_about_website_url" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
