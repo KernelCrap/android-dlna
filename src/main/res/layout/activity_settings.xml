@@ -50,7 +50,7 @@
         <EditTextPreference
                 android:key="about_version"
                 android:title="@string/settings_about_version"
-                android:summary="1.0.0"
+                android:summary="@string/app_version"
                 android:enabled="false" />
 
         <EditTextPreference
