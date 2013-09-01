@@ -62,7 +62,11 @@ public class DeviceModel extends CustomListItem {
         if (manDetails == null)
             return "N/A";
 
-        return manDetails.getManufacturer();
+        String manufacturer = manDetails.getManufacturer();
+        if (manufacturer == null)
+            return "N/A";
+
+        return manufacturer;
     }
 
     @Override
@@ -75,7 +79,11 @@ public class DeviceModel extends CustomListItem {
         if (manDetails == null)
             return "N/A";
 
-        return manDetails.getManufacturerURI().toString();
+        URI uri = manDetails.getManufacturerURI();
+        if (uri == null)
+            return "N/A";
+
+        return uri.toString();
     }
 
     @Override
