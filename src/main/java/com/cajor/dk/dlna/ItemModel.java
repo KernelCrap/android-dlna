@@ -80,7 +80,7 @@ public class ItemModel extends CustomListItem {
         }
 
         List<Res> resources =  item.getResources();
-        if (resources != null) {
+        if (resources != null && resources.size() != 0) {
 
             Res resource = item.getResources().get(0);
             String resolution = resource.getResolution();
