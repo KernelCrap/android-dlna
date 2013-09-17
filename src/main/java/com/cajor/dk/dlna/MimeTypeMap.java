@@ -527,6 +527,9 @@ public class MimeTypeMap {
             sMimeTypeMap.loadEntry("x-conference/x-cooltalk", "ice");
             sMimeTypeMap.loadEntry("x-epoc/x-sisx-app", "sisx");
             sMimeTypeMap.loadEntry("video/x-matroska", "mkv");
+            sMimeTypeMap.loadEntry("video/MP2T", "ts");
+            sMimeTypeMap.loadEntry("video/MP2T", "mts");
+            sMimeTypeMap.loadEntry("video/MP2T", "m2ts");
         }
 
         return sMimeTypeMap;
