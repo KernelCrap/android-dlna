@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.5.+'
+        classpath 'com.android.tools.build:gradle:0.8.+'
     }
 }
 apply plugin: 'android'
@@ -16,8 +16,8 @@ repositories {
 }
 
 dependencies {
-    compile group: 'org.fourthline.cling', name: 'cling-core', version:'2.0-alpha2'
-    compile group: 'org.fourthline.cling', name: 'cling-support', version:'2.0-alpha2'
+    compile group: 'org.fourthline.cling', name: 'cling-core', version:'2.0-alpha3'
+    compile group: 'org.fourthline.cling', name: 'cling-support', version:'2.0-alpha3'
     compile group: 'org.eclipse.jetty', name: 'jetty-server', version:'8.1.12.v20130726'
     compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version:'8.1.12.v20130726'
     compile group: 'org.eclipse.jetty', name: 'jetty-client', version:'8.1.12.v20130726'
@@ -27,7 +27,7 @@ dependencies {
 
 android {
     compileSdkVersion 17
-    buildToolsVersion "17.0.0"
+    buildToolsVersion "19.0.1"
 
     defaultConfig {
         minSdkVersion 15
