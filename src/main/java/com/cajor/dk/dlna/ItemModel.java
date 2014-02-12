@@ -26,7 +26,15 @@ public class ItemModel extends CustomListItem {
     }
 
     public String getUrl() {
-        return item.getFirstResource().getValue();
+        if (item == null)
+            return "N/A";
+
+        Res resource = item.getFirstResource();
+
+        if (resource == null || resource.getValue() == null)
+            return "N/A";
+
+        return resource.getValue();
     }
 
     public void setShowExtension(Boolean show) {

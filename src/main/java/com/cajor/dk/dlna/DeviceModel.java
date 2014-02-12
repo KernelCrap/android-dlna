@@ -8,6 +8,8 @@ import org.fourthline.cling.model.meta.RemoteDevice;
 import org.fourthline.cling.model.meta.Service;
 import org.seamless.util.MimeType;
 
+import java.net.URI;
+
 public class DeviceModel extends CustomListItem {
 
     private final Device device;

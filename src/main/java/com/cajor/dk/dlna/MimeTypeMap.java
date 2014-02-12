@@ -159,7 +159,7 @@ public class MimeTypeMap {
 
     public String getMimeTypeFromUrl(String url)
     {
-        String type = null;
+        String type = "application/octet-stream";
         String extension = getFileExtensionFromUrl(url);
         if (extension != null)
             type = getMimeTypeFromExtension(extension);

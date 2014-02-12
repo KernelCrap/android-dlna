@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SlickDLNA</string>
+    <string name="app_name">Slick UPnP</string>
     <string name="action_refresh">Genindlæs</string>
     <string name="action_settings">Indstillinger</string>
     <string name="info_searching">Genindlæser...</string>
     <string name="info_errorlist_folders">Fejl ved visning af mappe</string>
     <string name="info_still_loading">Enheden er ikke klar, vent venligst og prøv igen</string>
+    <string name="info_could_not_start_activity">Kunne ikke starte aktivitet (ukendt grund, kontakt venligst udvikleren)</string>
     <string name="info_no_handler">Der er ingen applikation installeret som kan håndtere dette indhold</string>
     <string name="info_folder">Mappe</string>
     <string name="info_file">Fil</string>

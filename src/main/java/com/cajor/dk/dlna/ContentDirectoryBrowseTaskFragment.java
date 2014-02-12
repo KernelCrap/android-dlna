@@ -134,10 +134,13 @@ public class ContentDirectoryBrowseTaskFragment extends Fragment {
                     Uri uri = Uri.parse(item.getUrl());
                     MimeTypeMap mime = MimeTypeMap.getSingleton();
                     String type = mime.getMimeTypeFromUrl(uri.toString());
-                    final Intent intent = new Intent();
+                    Intent intent = new Intent();
                     intent.setAction(android.content.Intent.ACTION_VIEW);
                     intent.setDataAndType(uri, type);
                     startActivity(intent);
+                } catch(NullPointerException ex) {
+                    Toast.makeText(mActivity, R.string.info_could_not_start_activity, Toast.LENGTH_SHORT)
+                            .show();
                 } catch(ActivityNotFoundException ex) {
                     Toast.makeText(mActivity, R.string.info_no_handler, Toast.LENGTH_SHORT)
                         .show();
