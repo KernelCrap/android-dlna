@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SlickDLNA</string>
-    <string name="app_version">1.0.3</string>
+    <string name="app_name">Slick UPnP</string>
+    <string name="app_version">1.0.7</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_settings">Settings</string>
     <string name="info_searching">Reloading...</string>
     <string name="info_errorlist_folders">Error while listening folders</string>
     <string name="info_still_loading">The device is still being loaded, please wait and try again</string>
+    <string name="info_could_not_start_activity">Could not start activity (not sure why, please contact developer)</string>
     <string name="info_no_handler">No application for handling this content type available</string>
     <string name="info_folder">Folder</string>
     <string name="info_file">File</string>
