@@ -11,7 +11,7 @@ Available at the
 Requirements
 ============
 * `Android 4.0+ <http://android.com/>`__
-* `Cling 2.0-alpha2 <http://4thline.org/projects/cling/>`__ (Java/Android UPnP library and tools)
+* `Cling 2.0-alpha3 <http://4thline.org/projects/cling/>`__ (Java/Android UPnP library and tools)
 * `Jetty 8.1.12 <http://eclipse.org/jetty/>`__ (Servlet Engine and Http Server)
 * `UrlImageViewHelper <https://github.com/koush/UrlImageViewHelper>`__ (Android library that sets an ImageView's contents from a url)
 
