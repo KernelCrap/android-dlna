@@ -23,3 +23,8 @@ Icons
 =====
 * `Elementary icons <http://danrabbit.deviantart.com/art/elementary-Icons-65437279>`__
 * `Oxygen icons <http://oxygen-icons.org/>`__
+
+License
+=======
+* `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`__
+* Each of the components have their own license
