@@ -87,6 +87,14 @@ public class ItemModel extends CustomListItem {
             return res.getString(R.string.info_folder);
         }
 
+        List<DIDLObject.Property> properties = item.getProperties();
+        if (properties != null && properties.size() != 0) {
+            for(DIDLObject.Property property : properties) {
+                if (property.getDescriptorName().equalsIgnoreCase("date"))
+                    return property.getValue().toString();
+            }
+        }
+
         List<Res> resources =  item.getResources();
         if (resources != null && resources.size() != 0) {
 

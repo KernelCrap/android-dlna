@@ -316,7 +316,7 @@ public class ContentDirectoryBrowseTaskFragment extends Fragment {
         private Service service;
 
         public CustomContentBrowseActionCallback(Service service, String id) {
-            super(service, id, BrowseFlag.DIRECT_CHILDREN, "*", 0, null,
+            super(service, id, BrowseFlag.DIRECT_CHILDREN, "*", 0, 99999l,
                     new SortCriterion(true, "dc:title"));
 
             this.service = service;
@@ -390,7 +390,7 @@ public class ContentDirectoryBrowseTaskFragment extends Fragment {
         private Service service;
 
         public CustomContentBrowseTestCallback(Device device, Service service) {
-            super(service, "0", BrowseFlag.DIRECT_CHILDREN, "*", 0, null,
+            super(service, "0", BrowseFlag.DIRECT_CHILDREN, "*", 0, 99999l,
                     new SortCriterion(true, "dc:title"));
 
             this.device = device;

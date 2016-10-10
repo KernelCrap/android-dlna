@@ -24,6 +24,10 @@ public class DeviceModel extends CustomListItem {
     public String getIconUrl() {
         for (Object o : device.getIcons()) {
             Icon icon = (Icon)o;
+
+            if (icon == null)
+                continue;
+
             if (icon.getWidth() >= 64 && icon.getHeight() >= 64
                     && isUsableImageType(icon.getMimeType()))
                 return ((RemoteDevice)device).normalizeURI(icon.getUri()).toString();
