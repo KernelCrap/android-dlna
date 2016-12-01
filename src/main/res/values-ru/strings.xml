@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Slick UPnP</string>
+    <string name="app_version" translatable="false">1.1.1</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="action_settings">Параметры</string>
+    <string name="info_searching">Обновление...</string>
+    <string name="info_errorlist_folders">Ошибка при просмотре папок</string>
+    <string name="info_still_loading">Устройство по-прежнему загружается, подождите и попробуйте снова</string>
+    <string name="info_could_not_start_activity">Не удалось запустить (причина не известна, свяжитесь с разработчиком)</string>
+    <string name="info_no_handler">Нет доступных приложений для обработки данного типа файла</string>
+    <string name="info_folder">Папка</string>
+    <string name="info_file">Файл</string>
+    <string name="info_items">объект</string>
+    <string name="info_no_wifi">Необходимо включить беспроводное соединение</string>
+    <string name="settings_title_devices">Устройства</string>
+    <string name="settings_validate_devices">Проверять устройства</string>
+    <string name="settings_validate_devices_description">Выполнять дополнительную проверку перед отображением устройства (медленнее)</string>
+    <string name="settings_title_icons">Значки</string>
+    <string name="settings_show_icons">Показывать значки</string>
+    <string name="settings_show_icons_description">Отображать значки для папок и объектов</string>
+    <string name="settings_hide_file_icons">Не показывать значки для файлов</string>
+    <string name="settings_hide_file_icons_description">Скрыть значки для файлов</string>
+    <string name="settings_show_device_icons">Показывать значки устройств</string>
+    <string name="settings_show_device_icons_description">Загружать и отображать значки для устройств</string>
+    <string name="settings_title_files">Файлы</string>
+    <string name="settings_show_extensions">Показывать расширения файлов</string>
+    <string name="settings_show_extensions_description">Отображать расширения в именах файлов</string>
+    <string name="settings_about_title">О приложении</string>
+    <string name="settings_about_version">Версия</string>
+    <string name="settings_about_developer">Разработчик</string>
+    <string name="settings_about_developer_name">Casper Jørgensen</string>
+    <string name="settings_about_website">Веб-сайт</string>
+    <string name="settings_about_website_url">https://cajor.dk</string>
+</resources>
