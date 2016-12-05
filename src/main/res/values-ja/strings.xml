@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Slick UPnP</string>
+    <string name="action_refresh">更新</string>
+    <string name="action_settings">設定</string>
+    <string name="info_searching">再読み込み中...</string>
+    <string name="info_errorlist_folders">フォルダーのリスト中にエラーが発生しました</string>
+    <string name="info_still_loading">デバイスはまだ読み込み中です。 しばらく待って、もう一度やり直してください</string>
+    <string name="info_could_not_start_activity">アクティビティを開始できませんでした (原因不明。開発者にご連絡ください)</string>
+    <string name="info_no_handler">このコンテンツタイプを処理するアプリケーションがありません</string>
+    <string name="info_folder">フォルダー</string>
+    <string name="info_file">ファイル</string>
+    <string name="info_items">アイテム</string>
+    <string name="info_no_wifi">ワイヤレス接続を有効にしてください</string>
+    <string name="settings_title_devices">デバイス</string>
+    <string name="settings_validate_devices">デバイスを検証する</string>
+    <string name="settings_validate_devices_description">デバイスを表示する前に追加の検証を行います (遅くなります)</string>
+    <string name="settings_title_icons">アイコン</string>
+    <string name="settings_show_icons">アイコンを表示</string>
+    <string name="settings_show_icons_description">フォルダーとアイテムのアイコンを表示します</string>
+    <string name="settings_hide_file_icons">ファイルのアイコンを非表示</string>
+    <string name="settings_hide_file_icons_description">ファイルエントリのアイコンを表示しません</string>
+    <string name="settings_show_device_icons">デバイスのアイコンを表示</string>
+    <string name="settings_show_device_icons_description">デバイスのアイコンをダウンロードして表示します</string>
+    <string name="settings_title_files">ファイル</string>
+    <string name="settings_show_extensions">ファイルの拡張子を表示</string>
+    <string name="settings_show_extensions_description">ファイル名に拡張子をつけます</string>
+    <string name="settings_about_title">アプリについて</string>
+    <string name="settings_about_version">バージョン</string>
+    <string name="settings_about_developer">開発者</string>
+    <string name="settings_about_developer_name">Casper Jørgensen</string>
+    <string name="settings_about_website">Webサイト</string>
+    <string name="settings_about_website_url">https://cajor.dk</string>
+</resources>
