@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Slick UPnP</string>
-    <string name="app_version" translatable="false">1.1.1</string>
     <string name="action_refresh">Обновить</string>
     <string name="action_settings">Параметры</string>
     <string name="info_searching">Обновление...</string>
