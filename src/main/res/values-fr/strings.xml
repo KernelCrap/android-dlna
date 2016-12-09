@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Slick UPnP</string>
+    <string name="app_version" translatable="false">1.1.1</string>
+    <string name="action_refresh">Rafraîchir</string>
+    <string name="action_settings">Réglages</string>
+    <string name="info_searching">Rechargement...</string>
+    <string name="info_errorlist_folders">Erreur lors de la lecture des dossiers</string>
+    <string name="info_still_loading">L'appareil est toujours en cours de chargement, veuillez patienter et réessayer</string>
+    <string name="info_could_not_start_activity">Impossible de lancer l'activité (raison inconnue, veuillez contacter le développeur)</string>
+    <string name="info_no_handler">Aucune application disponible pour gérer ce type de contenu</string>
+    <string name="info_folder">Dosier</string>
+    <string name="info_file">Fichier</string>
+    <string name="info_items">Éléments</string>
+    <string name="info_no_wifi">Activez votre connexion Wi-fi s\'il vous plaît</string>
+    <string name="settings_title_devices">Appareils</string>
+    <string name="settings_validate_devices">Valider les appareils</string>
+    <string name="settings_validate_devices_description">Faire une validation supplémentaire avant d'afficher un appareil (plus lent)</string>
+    <string name="settings_title_icons">Icônes</string>
+    <string name="settings_show_icons">Afficher les icônes</string>
+    <string name="settings_show_icons_description">Afficher les icônes pour les dossiers et les éléments</string>
+    <string name="settings_hide_file_icons">Cacher les icônes pour les fichiers</string>
+    <string name="settings_hide_file_icons_description">Masquer les icônes des fichiers</string>
+    <string name="settings_show_device_icons">Afficher les icônes des appareils</string>
+    <string name="settings_show_device_icons_description">Télécharger et afficher les icônes des appareils</string>
+    <string name="settings_title_files">Fichiers</string>
+    <string name="settings_show_extensions">Afficher l\'extension du fichier</string>
+    <string name="settings_show_extensions_description">Ajouter les extensions aux noms des fichiers</string>
+    <string name="settings_about_title">À Propos</string>
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_developer">Développeur</string>
+    <string name="settings_about_developer_name">Casper Jørgensen</string>
+    <string name="settings_about_website">Site Internet</string>
+    <string name="settings_about_website_url">https://cajor.dk</string>
+</resources>
