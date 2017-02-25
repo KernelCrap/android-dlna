@@ -331,6 +331,9 @@ public class ContentDirectoryBrowseTaskFragment extends Fragment {
                     R.drawable.ic_folder, service, item);
 
             URI usableIcon = item.getFirstPropertyValue(DIDLObject.Property.UPNP.ICON.class);
+            if (usableIcon == null || usableIcon.toString().isEmpty()) {
+                usableIcon = item.getFirstPropertyValue(DIDLObject.Property.UPNP.ALBUM_ART_URI.class);
+            }
             if (usableIcon != null)
                 itemModel.setIconUrl(usableIcon.toString());
 
